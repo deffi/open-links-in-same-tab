@@ -1,5 +1,5 @@
 # open-links-in-same-tab
-A userscript that changes links not to open in a new tab
+A userscript that changes links not to open in a new tab.
 
 ## Purpose
 
@@ -15,3 +15,13 @@ This userscript addresses the issue by removing the attribute that
 specifies opening in a new tab from all links. By default, all links
 will therefore open in the same tab and the user remains in control
 of where to open a link.
+
+## Prerequisites
+
+Install a userscript manager such as [Tampermonkey](https://tampermonkey.net/)
+or [Greasemonkey](https://www.greasespot.net/).
+
+## Installation
+
+Open the [raw userscript file](https://github.com/deffi/open-links-in-same-tab/raw/master/open-links-in-same-tab.user.js)
+from this repository. The userscript manager should offer to install the script.
